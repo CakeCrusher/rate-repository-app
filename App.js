@@ -3,9 +3,10 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
+  console.log('This message is logged and loaded!');
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>It is working!</Text>
       <StatusBar style="auto" />
     </View>
   );
